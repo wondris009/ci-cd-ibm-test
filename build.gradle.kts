@@ -7,12 +7,16 @@ plugins {
     kotlin("plugin.spring") version "1.5.31"
 }
 
-group = "cz.speedygonzales"
-version = "0.0.1-SNAPSHOT"
+group = "cz.speedygonzales" //TODO migrate to correct package
+//version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
+}
+
+springBoot {
+    buildInfo()
 }
 
 dependencies {
