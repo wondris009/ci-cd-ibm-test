@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: lukvon
+      changes:
+        - sqlFile:
+            path: sql/20211206_init.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 2
+      author: lukvon
+      changes:
+        - sqlFile:
+            path: sql/20211207_insert_dummy_data.sql
+            relativeToChangelogFile: true

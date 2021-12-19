@@ -1,0 +1,1 @@
+INSERT INTO test(id, name) VALUES (1, 'test value for cloud');
